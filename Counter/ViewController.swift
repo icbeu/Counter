@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var number = 0
     @IBOutlet weak var btMinus: UIButton!
     @IBOutlet weak var vPopup: UIView!
+    @IBOutlet weak var lbPopup: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,11 +29,9 @@ class ViewController: UIViewController {
         if number > 0 {
             btMinus.isHidden = false
         }
-        if number == 10 {
+        if number%10 == 0 {
+            lbPopup.text = "Você chegou ao número \(number)"
             vPopup.isHidden = false
-        }
-        if number == 11 {
-            vPopup.isHidden == true
         }
     }
     

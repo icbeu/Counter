@@ -89,6 +89,7 @@
                     <connections>
                         <outlet property="btMinus" destination="rv7-yz-9ls" id="wod-fF-oFN"/>
                         <outlet property="lbCounter" destination="FCp-56-dYQ" id="gc6-t3-SjP"/>
+                        <outlet property="lbPopup" destination="N1T-zF-2W7" id="hiJ-GV-8FT"/>
                         <outlet property="vPopup" destination="K49-Y6-5An" id="AXQ-SM-AFD"/>
                     </connections>
                 </viewController>
